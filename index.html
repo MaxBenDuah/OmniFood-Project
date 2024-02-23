@@ -516,13 +516,14 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     type="text"
                     id="full-name"
                     placeholder="John Doe"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -532,6 +533,7 @@
                     id="email"
                     type="email"
                     placeholder="example@gmail.com"
+                    name="email"
                     required
                   />
                 </div>
@@ -539,7 +541,7 @@
                   <label for="where-from"
                     >Where did you hear about Omnifood?</label
                   >
-                  <select id="where-from">
+                  <select id="where-from" name="where-from">
                     <option value="friends">Friends and family</option>
                     <option value="friends">Facebook</option>
                     <option value="friends">Youtube</option>
