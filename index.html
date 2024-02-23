@@ -78,11 +78,15 @@
             </div>
           </div>
           <div class="hero-img-container">
-            <img
-              src="./hero.png"
-              alt="A woman eating a delicious meal"
-              class="hero-img"
-            />
+            <picture>
+              <source srcset="./hero-min.webp" type="image/webp" />
+              <source srcset="./hero.png" type="image/webp" />
+              <img
+                src="./hero-min.webp"
+                alt="A woman eating a delicious meal"
+                class="hero-img"
+              />
+            </picture>
           </div>
         </div>
       </section>
